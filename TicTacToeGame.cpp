@@ -12,7 +12,7 @@ void drawGrid(char *spaces)
 
     std::cout << "       |       |      " << std::endl;
     std::cout << "   " << spaces[6] << "   " << "|   " << spaces[7] << "   " << "|   " << spaces[8] << "   " << std::endl;
-    std::cout << "       |       |      " <<'\n'<<std::endl;
+    std::cout << "       |*******|      " <<'\n'<<std::endl;
 
 }
 void playerMove(int value,char *spaces)
